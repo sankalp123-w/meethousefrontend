@@ -6,7 +6,7 @@ const options = {
     timeout:10000,
     transports:['websocket']
 };
-return io('http://localhost:5500',options);
+return io('https://meethousebackend.herokuapp.com/',options);
 
 
 }
